@@ -22,5 +22,5 @@ Route::get('/hola', function () {
 });
 
 Route::get('/hook', function () {
-    return ('hook');
+    return ('hook actualizado');
 });
