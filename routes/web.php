@@ -18,6 +18,9 @@ Route::get('/', function () {
 });
 
 Route::get('/hola', function () {
-    return ('hola mundo reload b');
+    return ('hola mundo');
 });
 
+Route::get('/hook', function () {
+    return ('hook');
+});
