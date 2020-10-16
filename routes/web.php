@@ -18,6 +18,6 @@ Route::get('/', function () {
 });
 
 Route::get('/hola', function () {
-    return ('hola mundo');
+    return ('hola mundo reload b');
 });
 
