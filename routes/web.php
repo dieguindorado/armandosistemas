@@ -18,7 +18,8 @@ Route::get('/', function () {
     $videos = Video::all();
     foreach($videos as $video){
         echo $video->title.' ';
-        echo $video->user->email.'<br/>';        
+        echo $video->user->email.'<br/>'; 
+        var_dump($video->commnets);       
     }
     die();
     return view('welcome');

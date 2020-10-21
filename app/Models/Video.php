@@ -12,7 +12,7 @@ class Video extends Model
 
     // Relación One To Many
     public function comments(){
-        return $this->hasMany('App\Comment');
+        return $this->hasMany('App\Models\Comment');
     }
 
     public function user(){
