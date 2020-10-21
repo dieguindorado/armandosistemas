@@ -1,6 +1,6 @@
 <?php
 
-use App\Video;
+use App\Models\Video;
 use Illuminate\Support\Facades\Route;
 
 /*
