@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Models\Video;
+
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,6 +16,10 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
+    $videos = Video::all();
+    foreach($videos as $video){
+        var_dump($video);
+    }
     return view('welcome');
 });
 
