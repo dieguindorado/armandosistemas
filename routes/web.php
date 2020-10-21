@@ -19,7 +19,7 @@ Route::get('/', function () {
     foreach($videos as $video){
         echo $video->title.' ';
         echo $video->user->email.'<br/>'; 
-        var_dump($video->commnets);       
+        var_dump($video->comments);       
     }
     die();
     return view('welcome');
