@@ -30,20 +30,20 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
+                <form class="navbar-form navbar-left" role="search" action="">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="¿Qué quieres ver?" name="search"/> 
+                    </div>
+                    <button type="submit" class="btn btn-default">
+                        <span class="glyphicon glyphicon-search"></span>
+                    </button>
+                </form>
+
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav mr-auto">
 
-                    </ul>
-
-                    <form class="navbar-form navbar-left" role="search" action="">
-                        <div class="form-group">
-                            <input type="text" class="form-control" placeholder="¿Qué quieres ver?" name="search"/> 
-                        </div>
-                        <button type="submit" class="btn btn-default">
-                            <span class="glyphicon glyphicon-search"></span>
-                        </button>
-                    </form>
+                    </ul>                   
 
                     <!-- Right Side Of Navbar -->
                     <ul class="navbar-nav ml-auto">
