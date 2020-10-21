@@ -17,7 +17,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     $videos = Video::all();
     foreach($videos as $video){
-        echo $video->title.'<br/>';
+        echo $video->title;
         echo $video->user->email.'<br/>';        
     }
     die();
