@@ -24,7 +24,7 @@ Route::get('/', function () {
     foreach($video->comments as $comment){
         echo $comment->body;
     }
-    die();
+    
     return view('welcome');
 });
 
