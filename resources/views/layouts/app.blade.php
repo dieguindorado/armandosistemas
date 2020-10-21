@@ -35,7 +35,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
                     <ul class="nav navbar-nav">
-                        <li><a href="{{ route('/home') }}">Inicio</a></li>
+                        <li><a href="{{ route('home') }}">Inicio</a></li>
                     </ul>                   
 
                     <form class="navbar-form navbar-left" role="search" action="">
