@@ -1,7 +1,6 @@
 <?php
 
-use App\Http\Models\Video;
-
+use App\Video;
 use Illuminate\Support\Facades\Route;
 
 /*
