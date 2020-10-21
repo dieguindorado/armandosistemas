@@ -15,23 +15,6 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    $videos = Video::all();
-    foreach($videos as $video){
-        echo $video->title.' ';
-        echo $video->user->email.'<br/>'; 
-        foreach($video->comments as $comment){
-            echo $comment->body;
-        }
-        echo"<hr/>";
-    }
-    die();
+
     return view('welcome');
-});
-
-Route::get('/hola', function () {
-    return ('hola mundo');
-});
-
-Route::get('/hook', function () {
-    return ('hook creado');
 });
