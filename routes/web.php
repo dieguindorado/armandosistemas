@@ -19,6 +19,7 @@ Route::get('/', function () {
     foreach($videos as $video){
         echo $video->title.'<br/>';
     }
+    die();
     return view('welcome');
 });
 
