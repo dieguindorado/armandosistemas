@@ -9,7 +9,6 @@
 
                 <div class="card-body">
                     @if (session('status'))
-                        <li><a href="#">Subir Vídeo</a></li>
                         <div class="alert alert-success" role="alert">
                             {{ session('status') }}
                         </div>
