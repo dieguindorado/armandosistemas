@@ -37,8 +37,8 @@
                     <form class="form-inline" role="search" action="">
                         <div class="form-group">
                             <input type="text" class="form-control" placeholder="¿Que quieres ver?" name="search">                            
-                        </div>
-                        <button type="submit" class="btn btn-default">Buscar</button>
+                        </div>                        
+                        <button type="submit" class="btn btn-outline-success my-2 my-sm-0">Buscar</button>
                     </form>
 
                     <ul class="navbar-nav mr-auto">
