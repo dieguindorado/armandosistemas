@@ -38,7 +38,8 @@
                         <div class="form-group">
                             <input type="text" class="form-control" placeholder="¿Que quieres ver?" name="search">                            
                         </div>                        
-                        <button type="submit" class="btn btn-outline-success my-2 my-sm-0">Buscar</button>
+                        <button type="submit" class="fas fa-search my-2 my-sm-0">Buscar</button>
+                        
                     </form>
 
                     <ul class="navbar-nav mr-auto">
