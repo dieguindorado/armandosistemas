@@ -27,4 +27,19 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 // Rutas del controlador de videos
 
 Route::get('/crear-video',[VideoController::class, 'createVideo'])->middleware('auth')->name('createVideo');
+Route::get('/crear',[VideoController::class, 'create'])->middleware('auth')->name('creating');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

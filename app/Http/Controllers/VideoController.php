@@ -18,4 +18,8 @@ class VideoController extends Controller
     public function createVideo(){
         return view('video.createVideo');
     }
+
+    public function create(){
+        return view('video.createVideo');
+    }
 }
