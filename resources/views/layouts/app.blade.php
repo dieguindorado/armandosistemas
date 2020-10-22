@@ -34,6 +34,10 @@
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->                
+                    <ul class="nav navbar-nav">
+                        <li><a href="{{ route('login') }}">Inicio</a></li>
+                    </ul>  
+
                     <form class="form-inline" role="search" action="">
                         <div class="form-group">
                             <input type="text" class="form-control" placeholder="¿Que quieres ver?" name="search">                            
