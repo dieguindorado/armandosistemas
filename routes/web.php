@@ -2,6 +2,7 @@
 
 use App\Models\Video;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\VideoController;
 
 /*
 |--------------------------------------------------------------------------
