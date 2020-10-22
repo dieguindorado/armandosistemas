@@ -34,7 +34,7 @@
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->                
-                    <ul class="nav navbar-nav">
+                    <ul class="navbar-nav ml-auto">
                         <li><a href="{{ route('login') }}">Inicio</a></li>
                     </ul>  
 
